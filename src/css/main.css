@@ -25,6 +25,10 @@ h6 {
   font-weight: 700;
 }
 
+h1 {
+  font-size: 1em;
+}
+
 .header {
   height: 50vh;
   width: 100%;
@@ -38,4 +42,22 @@ a {
   text-decoration: none;
   color: var(--text-color);
   font-weight: 700;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  flex: 0 1 30%;
+  margin: 1%;
+  background-color: var(--white);
+  color: var(--black);
+  border-radius: 8px;
+}
+
+.card-text-container {
+  margin: 1.5em 1.5em;
 }
