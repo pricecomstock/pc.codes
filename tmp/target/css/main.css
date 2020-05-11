@@ -1,3 +1,21 @@
+@font-face {
+  font-family: "Muli";
+  src: url("/fonts/Muli-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Muli";
+  src: url("/fonts/Muli-Light.ttf");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Muli";
+  src: url("/fonts/Muli-Bold.ttf");
+  font-weight: 700;
+}
+
 :root {
   --white: hsl(0, 0%, 96%);
   --black: hsl(0, 0%, 14%);
@@ -11,7 +29,16 @@ body {
   background-color: var(--bg-color);
   color: hsl(0, 0%, 96%);
   color: var(--text-color);
-  font-family: sans-serif;
+  font-family: "Muli", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
 }
 
 .header {
