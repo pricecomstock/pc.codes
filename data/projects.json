@@ -1,0 +1,14 @@
+{
+  "projects": [
+    {
+      "name": "Checklatey",
+      "url": "https://checklatey.pc.codes",
+      "description": "like Ninite, for the Chocolatey package manager for Windows"
+    },
+    {
+      "name": "Bitwits",
+      "url": "https://bitwits.co",
+      "description": "a free and fun party game of head-to-head wits"
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 import Header from "./components/header.html";
+import Projects from "./components/projects.html";
 
-export default () => {
+export default ({ data, environment }) => {
   return (
     <html>
       <head>
@@ -12,6 +13,8 @@ export default () => {
       </head>
       <body>
         <Header></Header>
+
+        <Projects data={data.projects.projects}></Projects>
       </body>
     </html>
   );
