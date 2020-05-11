@@ -4,8 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "charge serve src",
+    "build": "charge build src dist",
+    "deploy": "charge build src dist && <DEPLOY COMMAND>"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@static/charge": "^1.7.0"
+  }
 }
