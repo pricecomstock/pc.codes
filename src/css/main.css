@@ -1,0 +1,22 @@
+:root {
+  --white: hsl(0, 0%, 96%);
+  --black: hsl(0, 0%, 14%);
+
+  --bg-color: var(--black);
+  --text-color: var(--white);
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: sans-serif;
+}
+
+.header {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+}
