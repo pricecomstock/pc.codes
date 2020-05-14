@@ -1,14 +1,22 @@
 {
   "projects": [
     {
+      "featured": true,
       "name": "Checklatey",
       "url": "https://checklatey.pc.codes",
-      "description": "like Ninite, for the Chocolatey package manager for Windows"
+      "description": "like Ninite, for the Chocolatey package manager for Windows",
+      "imagePath": "/images/checklatey-logo.svg"
     },
     {
+      "featured": true,
       "name": "Bitwits",
       "url": "https://bitwits.co",
       "description": "a free and fun party game of head-to-head wits"
+    },
+    {
+      "name": "Powerrank.io",
+      "url": "https://powerrank.pc.codes",
+      "description": "My first database-through-SPA full stack app. A site that lets you rank things, your friend rank things, and everybody find the one true ranking of things"
     }
   ]
 }

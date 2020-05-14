@@ -14,7 +14,25 @@ export default ({ data, environment }) => {
       <body>
         <Header></Header>
 
-        <Projects data={data.projects.projects}></Projects>
+        <section className="section">
+          <h2>Featured Projects</h2>
+          <Projects
+            data={data.projects.projects}
+            filter={(project) => {
+              return project.featured;
+            }}
+          ></Projects>
+        </section>
+
+        <section className="section">
+          <h2>Other Projects</h2>
+          <Projects
+            data={data.projects.projects}
+            filter={(project) => {
+              return !project.featured;
+            }}
+          ></Projects>
+        </section>
       </body>
     </html>
   );

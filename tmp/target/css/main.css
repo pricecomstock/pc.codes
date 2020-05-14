@@ -34,6 +34,10 @@ body {
   font-size: 1.33em;
 }
 
+section {
+  margin: 3em;
+}
+
 h1,
 h2,
 h3,
@@ -77,8 +81,24 @@ a {
   color: hsl(0, 0%, 14%);
   color: var(--black);
   border-radius: 8px;
+  transition: transform 0.15s;
+}
+
+.card:hover {
+  transform: scale(1.04);
 }
 
 .card-text-container {
   margin: 1.5em 1.5em;
+}
+
+.card-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-img > img {
+  height: 70%;
+  width: 70%;
 }
