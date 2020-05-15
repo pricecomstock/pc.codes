@@ -3,6 +3,7 @@
 :root {
   --white: hsl(0, 0%, 96%);
   --black: hsl(0, 0%, 14%);
+  --light-gray: hsl(0, 0%, 90%);
 
   --bg-color: var(--black);
   --text-color: var(--white);
@@ -42,7 +43,7 @@ h1 {
   font-size: 3em;
 }
 
-a {
+a.text-link {
   text-decoration: none;
   color: var(--text-color);
   font-weight: 700;
@@ -55,12 +56,26 @@ a {
 }
 
 .card {
+  text-decoration: none;
   flex: 0 1 30%;
   margin: 1%;
   background-color: var(--white);
   color: var(--black);
   border-radius: 8px;
   transition: transform 0.15s;
+}
+
+.card h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+.card p {
+  font-weight: 400;
 }
 
 .card:hover {
@@ -75,9 +90,24 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .card-img > img {
   height: 70%;
   width: 70%;
+}
+
+ul.tags {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+span.tag {
+  background-color: var(--light-gray);
+  padding: 0.25em 0.5em;
+  margin: 0.25em;
+  border-radius: 8px;
 }

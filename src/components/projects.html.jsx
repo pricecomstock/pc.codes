@@ -20,6 +20,7 @@ export default ({ data, filter }) => {
             description={project.description}
             url={project.url}
             imagePath={project.imagePath}
+            tags={project.stack}
           ></Card>
           // <li key={index}>
           //   <a href={project.url}>{project.name}</a>: {project.description}

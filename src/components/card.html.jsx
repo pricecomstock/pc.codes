@@ -1,4 +1,4 @@
-export default ({ title, description, url, imagePath }) => {
+export default ({ title, description, url, imagePath, tags }) => {
   return (
     <a href={url} className="card">
       <div className="card-text-container">
@@ -7,6 +7,16 @@ export default ({ title, description, url, imagePath }) => {
         </span>
         <h3>{title}</h3>
         <p>{description}</p>
+        <ul className="tags">
+          {tags &&
+            tags.map((tag, index) => {
+              return (
+                <span className="tag" key={index}>
+                  {tag}
+                </span>
+              );
+            })}
+        </ul>
       </div>
     </a>
   );
