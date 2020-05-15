@@ -15,7 +15,7 @@ export default ({ data, environment }) => {
         <Header></Header>
 
         <section className="section">
-          <h2>Featured Projects</h2>
+          <h1>Featured Projects</h1>
           <Projects
             data={data.projects.projects}
             filter={(project) => {
@@ -25,7 +25,7 @@ export default ({ data, environment }) => {
         </section>
 
         <section className="section">
-          <h2>Other Projects</h2>
+          <h1>Other Projects</h1>
           <Projects
             data={data.projects.projects}
             filter={(project) => {

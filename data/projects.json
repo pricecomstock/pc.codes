@@ -5,34 +5,47 @@
       "name": "Checklatey",
       "url": "https://checklatey.pc.codes",
       "description": "like Ninite, for the Chocolatey package manager for Windows. a simple checklist of apps you might want to install on a fresh PC",
-      "stack": ["SvelteJS"],
+      "stack": ["svelte"],
       "imagePath": "/images/checklatey-logo.svg"
     },
     {
       "featured": true,
       "name": "Bitwits",
       "url": "https://bitwits.co",
-      "description": "a free and fun party game of head-to-head wits. built using React and Node.js, especially socket.io",
-      "stack": ["ReactJS", "Node.js", "Socket.IO"]
+      "description": "a free and fun party game of head-to-head wits. a prompt is given, players submit the best answer they can think of, and then vote for their favorite",
+      "stack": ["react", "node", "socketio"],
+      "imagePath": "/images/tag-icons/lightning-icon.svg"
     },
     {
       "featured": true,
       "name": "Forgot My Slides",
       "url": "https://pptx.pc.codes",
       "description": "a random powerpoint generator that pulls image and text from a variety of sources. great for powerpoint karaoke, or in a pinch, board meetings",
-      "stack": ["Node.js", "Vue.js"]
+      "stack": ["node", "vue"]
     },
     {
       "name": "Powerrank.io",
       "url": "https://powerrank.pc.codes",
       "description": "my first database-through-SPA full stack app. A site that lets you rank things, your friend rank things, and everybody find the one true ranking of things",
-      "stack": ["Vue.js", "Node.js", "MongoDB"]
+      "stack": ["vue", "node", "mongo"]
     },
     {
       "name": "Inspopaper",
       "url": "#",
       "description": "a Slack bot written in Python that turns any message into an inspirational wallpaper. no longer online, this was very much a lessons learned project",
-      "stack": ["Python", "Google Cloud", "PostgreSQL", "Slack"]
+      "stack": ["python", "gcp", "postgres", "slack"]
+    },
+    {
+      "name": "Resume Renderer",
+      "url": "https://github.com/pricecomstock/resume-renderer",
+      "description": "like a static site generator for PDFs. i wanted a resume multiple versions and easy iterability, so I made a tool to render it using HTML, CSS and Puppeteer",
+      "stack": ["node"]
+    },
+    {
+      "name": "Live Audience Voting",
+      "url": "vote.pc.codes",
+      "description": "a tool I created for a live comedy show where each audience member can pick an emoji and watch it whizz around the screen as they update their vote",
+      "stack": ["vue", "node", "socketio"]
     }
   ]
 }
