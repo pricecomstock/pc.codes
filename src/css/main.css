@@ -18,7 +18,7 @@ body {
 }
 
 section {
-  margin: 3em;
+  margin: 0 2%;
 }
 
 h1,
@@ -50,15 +50,27 @@ a.text-link {
 }
 
 .project-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  gap: 30px 30px;
+  margin: auto;
+  padding: 1em 2%;
+}
+
+@media screen and (min-width: 740px) {
+  .project-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .project-list {
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1600px;
+  }
 }
 
 .card {
   text-decoration: none;
-  flex: 0 1 30%;
-  margin: 1%;
   background-color: var(--white);
   color: var(--black);
   border-radius: 8px;
