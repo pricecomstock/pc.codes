@@ -18,7 +18,8 @@ body {
 }
 
 section {
-  margin: 0 2%;
+  max-width: 1600px;
+  margin: auto;
 }
 
 h1,
@@ -38,9 +39,11 @@ section h1 {
   height: 50vh;
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 3em;
+  font-size: 2em;
+  text-align: center;
 }
 
 a.text-link {
@@ -65,7 +68,6 @@ a.text-link {
 @media screen and (min-width: 1180px) {
   .project-list {
     grid-template-columns: 1fr 1fr 1fr;
-    max-width: 1600px;
   }
 }
 
