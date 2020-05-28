@@ -89,7 +89,7 @@ section h1 {
 }
 
 .header {
-  height: 50vh;
+  min-height: 50vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -97,6 +97,12 @@ section h1 {
   align-items: center;
   font-size: 2em;
   text-align: center;
+}
+
+@media screen and (max-width: 550px) {
+  .header {
+    font-size: 1.5em;
+  }
 }
 
 a.text-link {
@@ -131,7 +137,7 @@ a.text-link {
   color: hsl(0, 0%, 14%);
   color: var(--black);
   border-radius: 12px;
-  transition: transform 0.15s, box-shadow 0.15s;
+  transition: transform 0.15s;
   font-size: 1.33em;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
     0 4px 6px -2px rgba(0, 0, 0, 0.05);
@@ -139,8 +145,6 @@ a.text-link {
 
 .card:hover {
   transform: scale(1.04);
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
-    0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
 .card-text-container {
