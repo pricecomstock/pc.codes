@@ -24,6 +24,12 @@
       "stack": ["node", "vue"]
     },
     {
+      "name": "Live Audience Voting",
+      "url": "vote.pc.codes",
+      "description": "a tool I created for a live comedy show where each audience member can pick an emoji and watch it whizz around the screen as they update their vote",
+      "stack": ["vue", "node", "socketio"]
+    },
+    {
       "name": "Powerrank.io",
       "url": "https://powerrank.pc.codes",
       "description": "my first database-through-SPA full stack app. A site that lets you rank things, your friend rank things, and everybody find the one true ranking of things",
@@ -42,10 +48,11 @@
       "stack": ["node"]
     },
     {
-      "name": "Live Audience Voting",
-      "url": "vote.pc.codes",
-      "description": "a tool I created for a live comedy show where each audience member can pick an emoji and watch it whizz around the screen as they update their vote",
-      "stack": ["vue", "node", "socketio"]
+      "name": "...and more",
+      "url": "https://github.com/pricecomstock/",
+      "description": "This is a link to my GitHub, but most of my favorite projects are on this page",
+      "stack": [],
+      "imagePath": "/images/github.svg"
     }
   ]
 }
