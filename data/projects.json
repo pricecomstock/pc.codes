@@ -6,7 +6,7 @@
       "url": "https://checklatey.pc.codes",
       "description": "like Ninite, for the Chocolatey package manager for Windows. a simple checklist of apps you might want to install on a fresh PC",
       "stack": ["svelte"],
-      "imagePath": "/images/checklatey-logo.svg"
+      "imagePath": "/images/projects/checklatey-logo.svg"
     },
     {
       "featured": true,
@@ -21,11 +21,12 @@
       "name": "Forgot My Slides",
       "url": "https://pptx.pc.codes",
       "description": "a random powerpoint generator that pulls image and text from a variety of sources. great for powerpoint karaoke, or in a pinch, board meetings",
-      "stack": ["node", "vue"]
+      "stack": ["node", "vue"],
+      "imagePath": "/images/projects/forgotmyslides.png"
     },
     {
       "name": "Live Audience Voting",
-      "url": "vote.pc.codes",
+      "url": "https://vote.pc.codes",
       "description": "a tool I created for a live comedy show where each audience member can pick an emoji and watch it whizz around the screen as they update their vote",
       "stack": ["vue", "node", "socketio"]
     },
