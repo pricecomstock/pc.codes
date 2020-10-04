@@ -14,7 +14,7 @@
       "url": "https://bitwits.co",
       "description": "a free and fun party game of head-to-head wits. a prompt is given, players submit the best answer they can think of, and then vote for their favorite",
       "stack": ["react", "node", "socketio"],
-      "imagePath": "/images/tag-icons/lightning-icon.svg"
+      "imagePath": "/images/projects/bitwits.svg"
     },
     {
       "featured": true,
